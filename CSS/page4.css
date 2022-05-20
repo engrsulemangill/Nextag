@@ -1,0 +1,458 @@
+@font-face 
+{
+    font-family: 'Poppins', sans-serif;
+    src: url(../Fonts/Poppins-Black.ttf), url(../Fonts/Poppins-BlackItalic.ttf),url(../Fonts/Poppins-Bold.ttf),url(../Fonts/Poppins-BoldItalic.ttf),
+    url(../Fonts/Poppins-ExtraBold.ttf),url(../Fonts/Poppins-ExtraBoldItalic.ttf),url(../Fonts/Poppins-ExtraLight.ttf),url(../Fonts/Poppins-ExtraLightItalic.ttf),url(../Fonts/Poppins-Italic.ttf),url(../Fonts/Poppins-Medium.ttf);
+}
+/* Reset Start */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+.main
+{
+    width:100%;
+}
+/* Reset End */
+/* NavBar Starts */
+.main .navbar
+{
+    width: 100%;
+    height:10vh;
+    padding: 5px;
+    display:flex;
+    align-items: center;
+    transition-duration: 500ms;
+    background: linear-gradient(90deg, rgba(14, 3, 0, 0.774) 0%, rgba(228, 6, 6, 0.623) 50%, rgba(215, 120, 19, 0.685) 100%);
+}
+.main .navbar #alogo
+{
+    width:80px;
+    height:65px;
+}
+
+.main .navbar a #logo
+{
+    width:80px;
+    height:65px;
+    padding: 5px;
+}
+.main .navbar span
+{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px black,2px 2px 8px black;
+    color: white;
+    letter-spacing: 5px;
+    width:400px;
+    text-align: center;
+    margin-left: 30%;
+}
+/* NavBar Ends */
+/* About Start */
+.main .about
+{
+    width:100%;
+    height:90vh;
+    background: linear-gradient(90deg, rgba(14,3,0,0.6222864145658263) 0%, rgba(228,6,6,0.45702030812324934) 50%, rgba(215,121,19,0.5354516806722689) 100%), url(../Images/Index/PR1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .about .aboutpara
+{
+    width:85%;
+    height:70%;
+    /* border:2px solid black; */
+    padding:10px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .about .aboutpara p
+{
+    width: 50%;
+    height:100%;
+    text-align: center;
+    color: white;
+    outline: black;
+    text-shadow: 0px 0px 4px black;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    padding-top: 25px;
+    margin: 20px;
+}
+.main .about .aboutpara .pic
+{
+    width: 30%;
+    height:80%;
+    /* border: 2px solid black; */
+    margin: 20px;
+    box-shadow: 2px 2px 6px black;
+    background-image: url(../Images/Page4/mem1.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main .about .aboutpara .pic span
+{
+    font-size: 1.5em;
+    color: white;
+    outline: black;
+    text-shadow: 0px 0px 2px black;
+    font-weight: 800;
+    letter-spacing: 3px;
+    position: absolute; 
+    bottom:10px;
+    left:15px;
+    opacity: 0;
+    transition-duration: 2s;
+}
+/* About End */
+/* Contact Start */
+.main .contact
+{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(90deg, rgba(14,3,0,0.6222864145658263) 0%, rgba(228,6,6,0.45702030812324934) 50%, rgba(215,121,19,0.5354516806722689) 100%), url(../Images/Index/LE1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .contact .cont
+{
+    width:85%;
+    height:70%;
+    /* border:2px solid black; */
+    padding:10px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main .contact .cont .form
+{
+    width:30%;
+    height:80%;
+    /* border:2px solid black; */
+    padding:10px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main .contact .cont .icons
+{
+    width: 30%;
+    height:80%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.main .contact .cont .icons .items
+{
+    width:40px;
+    height: 40px;
+    margin: 20px;
+}
+.main .contact .cont .icons .items img
+{
+    width: 100%;
+    height: 100%;
+    transition-duration: 500ms;
+}
+.main .contact .cont .icons .contactphone
+{
+    width:250px;
+    height: 60px;
+    margin: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.main .contact .cont .icons .contactphone img
+{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 110px;
+    transition-duration: 1.5s;
+}
+.main .contact .cont .icons .contactphone span
+{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+    opacity: 0;
+    transition-duration: 3s;
+}
+.main .contact .cont .form form input
+{
+    width:300px;
+    height:30px;
+    margin: 15px;
+    /* border: 2px solid black; */
+    opacity: 0.8;
+    text-align: center;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+.main .contact .cont .form form #check
+{
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid black; */
+}
+.main .contact .cont .form form span
+{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.705);
+}
+.main .contact .cont .form .check
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .contact .cont .form form #button
+{
+    width: 150px;
+    color: black;
+    background-color: brown;
+    font-weight: 800;
+    opacity: 1;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.main .contact .cont .form form input::placeholder
+{
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.main .contact .cont .form form input:focus
+{
+    opacity: 0.7;
+}
+/* Contact End */
+/* Members Start */
+.main .members
+{
+    width:100%;
+    height:90vh;
+    background: linear-gradient(90deg, rgba(14,3,0,0.6222864145658263) 0%, rgba(228,6,6,0.45702030812324934) 50%, rgba(215,121,19,0.5354516806722689) 100%), url(../Images/Index/LV1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .members .pic
+{
+    width:250px;
+    height:280px;
+    /* border:2px solid black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 30px;
+    box-shadow: 2px 2px 4px black, 4px 4px 8px black;
+    background-image: url(../Images/Page4/mem1.PNG);
+}
+.main .members .pic span
+{
+    font-size: 1.5em;
+    color: white;
+    outline: black;
+    text-shadow: 0px 0px 2px black;
+    font-weight: 800;
+    letter-spacing: 3px;
+    position: absolute; 
+    bottom:10px;
+    left:15px;
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+
+/* Members End */
+/* Partners Start */
+.main .partners
+{
+    width:100%;
+    height: 90vh;
+    /* border: 2px solid black; */
+    background: linear-gradient(90deg, rgba(14,3,0,0.6222864145658263) 0%, rgba(228,6,6,0.45702030812324934) 50%, rgba(215,121,19,0.5354516806722689) 100%), url(../Images/Index/PR6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .partners .brands
+{
+    width: 70%;
+    height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main .partners .brands .branding
+{
+    width:250px;
+    height: 150px;
+    margin: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.main .partners .brands .branding img
+{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    transition-duration: 1.5s;
+    filter: invert();
+}
+.main .partners .brands .branding span
+{
+    font-size: 1.2em;
+    color: black;
+    font-weight: 900;
+    opacity: 0;
+    transition-duration: 3s;
+    z-index: 2;
+}
+/* Partners End */
+/* Footer Start */
+.main .footer
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(14, 3, 0, 0.774) 0%, rgba(228, 6, 6, 0.623) 50%, rgba(71, 38, 2, 0.985) 100%);
+}
+.main .footer span
+{
+    font-size: 1.2em;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    color: white;
+}
+.main .footer a
+{
+    width:50px;
+    height: 50px;
+}
+.main .footer img
+{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Footer End */
+/* Animation Start */
+.main .navbar:hover
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    box-shadow: 1px 1px 8px black;
+}
+.main .footer:hover
+{
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow: 1px 1px 8px black;
+}
+
+.main .about .aboutpara .pic:hover
+{
+    background: linear-gradient(90deg, rgba(14,3,0,0.6222864145658263) 0%, rgba(228,6,6,0.45702030812324934) 50%, rgba(215,121,19,0.5354516806722689) 100%),url(../Images/Page4/mem1.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .about .aboutpara .pic:hover span
+{
+    bottom:70px;
+    left:15px;
+    opacity: 1;
+}
+.main .contact .cont .icons .contactphone:hover img
+{
+    left:5px;
+}
+.main .contact .cont .icons .contactphone:hover span
+{
+    opacity: 1;
+    transition-duration: 1s;
+}
+.main .contact .cont .form form #button:hover
+{
+    box-shadow: 2px 2px 8px black;
+}
+.main .contact .cont .icons .items img:hover
+{
+    transform: scale(1.3);
+}
+.main .members .pic:hover
+{
+    background: linear-gradient(90deg, rgba(14,3,0,0.6222864145658263) 0%, rgba(228,6,6,0.45702030812324934) 50%, rgba(215,121,19,0.5354516806722689) 100%),url(../Images/Page4/mem1.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .members .pic:hover span
+{
+    bottom:70px;
+    left:15px;
+    opacity: 1;
+}
+.main .partners .brands .branding:hover img
+{
+    left:5px;
+}
+.main .partners .brands .branding:hover span
+{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/* Animations End */
