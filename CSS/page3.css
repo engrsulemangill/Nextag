@@ -148,5 +148,772 @@
     filter: invert();
 }
 /* Animations End */
+/* Media Query Start */
+@media screen and (max-width : 1280px) 
+{
+    @font-face 
+{
+    font-family: 'Poppins', sans-serif;
+    src: url(../Fonts/Poppins-Black.ttf), url(../Fonts/Poppins-BlackItalic.ttf),url(../Fonts/Poppins-Bold.ttf),url(../Fonts/Poppins-BoldItalic.ttf),
+    url(../Fonts/Poppins-ExtraBold.ttf),url(../Fonts/Poppins-ExtraBoldItalic.ttf),url(../Fonts/Poppins-ExtraLight.ttf),url(../Fonts/Poppins-ExtraLightItalic.ttf),url(../Fonts/Poppins-Italic.ttf),url(../Fonts/Poppins-Medium.ttf);
+}
+/* Reset Start */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+/* Reset End */
+/* NavBar Starts */
+.navbar
+{
+    width: 100%;
+    height:10vh;
+    padding: 5px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    position: sticky;
+    transition-duration: 500ms;
+}
+.navbar #alogo
+{
+    display:block;
+    width:80px;
+    height:65px;
+    margin-right:58vh;
+}
+
+.navbar a #logo
+{
+    width:80px;
+    height:65px;
+    padding: 5px;
+}
+.navbar #acartlogo
+{
+    display:block;
+    width:40px;
+    height:40px;
+    margin-left: 68vh;
+}
+
+.navbar #cartlogo
+{
+    width:40px;
+    height:40px;
+    padding: 5px;
+}
+.navbar span
+{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px black,2px 2px 8px black;
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 4%;
+}
+/* NavBar Ends */
+/* Comparison Section Start */
+.main
+{
+    width:100%;
+    height:89.5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.main .dropdown
+{
+    width:50%;
+    height:10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.main .dropdown select
+{
+    width:500px;
+    height: 8vh;
+    padding: 5px;
+}
+.main .dropdown select option
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 10px;
+    transition-duration: 2s;
+}
+.main .products
+{
+    width: 100%;
+    height:75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.main .products .productcard
+{
+    width: 50%;
+    height:75vh;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    visibility: hidden;
+    /* box-shadow: 1px 1px 2px black, -1px -1px -2px black; */
+}
+.main .products .productcard img
+{
+    width:320px;
+    height:320px;
+    box-shadow: 0px 1px 5px black;
+
+}
+.main .products .productcard h2
+{
+    font-size: 1.2em;
+    text-align: left;
+    padding: 5px;
+    box-shadow: 0px 1px 0px black;
+}
+/* Comparison Section End */
+/* Animation Start */
+.navbar:hover
+{
+    background-color: rgba(0, 0, 0, 0.349);
+    box-shadow: 1px 1px 8px black;
+}
+.navbar:hover #cartlogo
+{
+    filter: invert();
+}
+/* Animations End */
+}
+@media screen and (max-width : 991px)
+{
+    @font-face 
+    {
+        font-family: 'Poppins', sans-serif;
+        src: url(../Fonts/Poppins-Black.ttf), url(../Fonts/Poppins-BlackItalic.ttf),url(../Fonts/Poppins-Bold.ttf),url(../Fonts/Poppins-BoldItalic.ttf),
+        url(../Fonts/Poppins-ExtraBold.ttf),url(../Fonts/Poppins-ExtraBoldItalic.ttf),url(../Fonts/Poppins-ExtraLight.ttf),url(../Fonts/Poppins-ExtraLightItalic.ttf),url(../Fonts/Poppins-Italic.ttf),url(../Fonts/Poppins-Medium.ttf);
+    }
+    /* Reset Start */
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* Reset End */
+    /* NavBar Starts */
+    .navbar
+    {
+        width: 100%;
+        height:10vh;
+        padding: 5px;
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        position: sticky;
+        transition-duration: 500ms;
+    }
+    .navbar #alogo
+    {
+        display:block;
+        width:80px;
+        height:65px;
+        margin-right:58vh;
+    }
+    
+    .navbar a #logo
+    {
+        width:80px;
+        height:65px;
+        padding: 5px;
+    }
+    .navbar #acartlogo
+    {
+        display:block;
+        width:40px;
+        height:40px;
+        margin-left: 68vh;
+    }
+    
+    .navbar #cartlogo
+    {
+        width:40px;
+        height:40px;
+        padding: 5px;
+    }
+    .navbar span
+    {
+        font-size: 1.5em;
+        font-weight: 700;
+        text-shadow: 1px 1px 3px black,2px 2px 8px black;
+        color: white;
+        letter-spacing: 5px;
+        margin-left: -70px;
+    }
+    /* NavBar Ends */
+    /* Comparison Section Start */
+    .main
+    {
+        width:100%;
+        height:89.5vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .main .dropdown
+    {
+        width:50%;
+        height:10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 20px;
+    }
+    .main .dropdown select
+    {
+        width:320px;
+        height: 8vh;
+        padding: 5px;
+    }
+    .main .dropdown select option
+    {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 10px;
+        transition-duration: 2s;
+    }
+    .main .products
+    {
+        width: 100%;
+        height:75vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    .main .products .productcard
+    {
+        width: 50%;
+        height:75vh;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        visibility: hidden;
+        /* box-shadow: 1px 1px 2px black, -1px -1px -2px black; */
+    }
+    .main .products .productcard img
+    {
+        width:320px;
+        height:320px;
+        box-shadow: 0px 1px 5px black;
+    
+    }
+    .main .products .productcard h2
+    {
+        font-size: 1.2em;
+        text-align: left;
+        padding: 5px;
+        box-shadow: 0px 1px 0px black;
+    }
+    /* Comparison Section End */
+    /* Animation Start */
+    .navbar:hover
+    {
+        background-color: rgba(0, 0, 0, 0.349);
+        box-shadow: 1px 1px 8px black;
+    }
+    .navbar:hover #cartlogo
+    {
+        filter: invert();
+    }
+    /* Animations End */   
+}
+@media screen and (max-width : 768px)
+{
+    @font-face 
+    {
+        font-family: 'Poppins', sans-serif;
+        src: url(../Fonts/Poppins-Black.ttf), url(../Fonts/Poppins-BlackItalic.ttf),url(../Fonts/Poppins-Bold.ttf),url(../Fonts/Poppins-BoldItalic.ttf),
+        url(../Fonts/Poppins-ExtraBold.ttf),url(../Fonts/Poppins-ExtraBoldItalic.ttf),url(../Fonts/Poppins-ExtraLight.ttf),url(../Fonts/Poppins-ExtraLightItalic.ttf),url(../Fonts/Poppins-Italic.ttf),url(../Fonts/Poppins-Medium.ttf);
+    }
+    /* Reset Start */
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* Reset End */
+    /* NavBar Starts */
+    .navbar
+    {
+        width: 100%;
+        height:10vh;
+        padding: 5px;
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        position: sticky;
+        transition-duration: 500ms;
+    }
+    .navbar #alogo
+    {
+        display:block;
+        width:80px;
+        height:65px;
+        margin-right:58vh;
+    }
+    
+    .navbar a #logo
+    {
+        width:80px;
+        height:65px;
+        padding: 5px;
+    }
+    .navbar #acartlogo
+    {
+        display:block;
+        width:40px;
+        height:40px;
+        margin-left: 68vh;
+    }
+    
+    .navbar #cartlogo
+    {
+        width:40px;
+        height:40px;
+        padding: 5px;
+    }
+    .navbar span
+    {
+        font-size: 1.2em;
+        font-weight: 700;
+        text-shadow: 1px 1px 3px black,2px 2px 8px black;
+        color: white;
+        letter-spacing: 5px;
+        transform: translateX(-30%);
+    }
+    /* NavBar Ends */
+    /* Comparison Section Start */
+    .main
+    {
+        width:100%;
+        height:89.5vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .main .dropdown
+    {
+        width:50%;
+        height:10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 20px;
+    }
+    .main .dropdown select
+    {
+        width:320px;
+        height: 8vh;
+        padding: 5px;
+    }
+    .main .dropdown select option
+    {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 10px;
+        transition-duration: 2s;
+    }
+    .main .products
+    {
+        width: 100%;
+        height:75vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    .main .products .productcard
+    {
+        width: 50%;
+        height:75vh;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        visibility: hidden;
+        /* box-shadow: 1px 1px 2px black, -1px -1px -2px black; */
+    }
+    .main .products .productcard img
+    {
+        width:320px;
+        height:320px;
+        box-shadow: 0px 1px 5px black;
+    
+    }
+    .main .products .productcard h2
+    {
+        font-size: 1.2em;
+        text-align: left;
+        padding: 5px;
+        box-shadow: 0px 1px 0px black;
+    }
+    /* Comparison Section End */
+    /* Animation Start */
+    .navbar:hover
+    {
+        background-color: rgba(0, 0, 0, 0.349);
+        box-shadow: 1px 1px 8px black;
+    }
+    .navbar:hover #cartlogo
+    {
+        filter: invert();
+    }
+    /* Animations End */   
+   
+}
+@media screen and (max-width : 576px) 
+{
+    @font-face 
+    {
+        font-family: 'Poppins', sans-serif;
+        src: url(../Fonts/Poppins-Black.ttf), url(../Fonts/Poppins-BlackItalic.ttf),url(../Fonts/Poppins-Bold.ttf),url(../Fonts/Poppins-BoldItalic.ttf),
+        url(../Fonts/Poppins-ExtraBold.ttf),url(../Fonts/Poppins-ExtraBoldItalic.ttf),url(../Fonts/Poppins-ExtraLight.ttf),url(../Fonts/Poppins-ExtraLightItalic.ttf),url(../Fonts/Poppins-Italic.ttf),url(../Fonts/Poppins-Medium.ttf);
+    }
+    /* Reset Start */
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* Reset End */
+    /* NavBar Starts */
+    .navbar
+    {
+        width: 100%;
+        height:10vh;
+        padding: 5px;
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        position: sticky;
+        transition-duration: 500ms;
+    }
+    .navbar #alogo
+    {
+        display:block;
+        width:80px;
+        height:65px;
+        margin-right:58vh;
+    }
+    
+    .navbar a #logo
+    {
+        width:80px;
+        height:65px;
+        padding: 5px;
+    }
+    .navbar #acartlogo
+    {
+        display:block;
+        width:40px;
+        height:40px;
+        margin-left: 68vh;
+    }
+    
+    .navbar #cartlogo
+    {
+        width:40px;
+        height:40px;
+        padding: 5px;
+    }
+    .navbar span
+    {
+        font-size: 1.5em;
+        font-weight: 700;
+        text-shadow: 1px 1px 3px black,2px 2px 8px black;
+        color: white;
+        letter-spacing: 5px;
+        margin-left: -190px;
+    }
+    /* NavBar Ends */
+    /* Comparison Section Start */
+    .main
+    {
+        width:100%;
+        height:89.5vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .main .dropdown
+    {
+        width:50%;
+        height:10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 20px;
+    }
+    .main .dropdown select
+    {
+        width:220px;
+        height: 8vh;
+        padding: 5px;
+    }
+    .main .dropdown select option
+    {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 10px;
+        transition-duration: 2s;
+    }
+    .main .products
+    {
+        width: 100%;
+        height:75vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    .main .products .productcard
+    {
+        width: 50%;
+        height:75vh;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        visibility: hidden;
+        /* box-shadow: 1px 1px 2px black, -1px -1px -2px black; */
+    }
+    .main .products .productcard img
+    {
+        width:220px;
+        height:220px;
+        box-shadow: 0px 1px 5px black;
+    
+    }
+    .main .products .productcard h2
+    {
+        font-size: 1em;
+        text-align: left;
+        padding: 5px;
+        box-shadow: 0px 1px 0px black;
+    }
+    /* Comparison Section End */
+    /* Animation Start */
+    .navbar:hover
+    {
+        background-color: rgba(0, 0, 0, 0.349);
+        box-shadow: 1px 1px 8px black;
+    }
+    .navbar:hover #cartlogo
+    {
+        filter: invert();
+    }
+    /* Animations End */   
+   
+}
+@media screen and (max-width : 420px) 
+{
+    @font-face 
+    {
+        font-family: 'Poppins', sans-serif;
+        src: url(../Fonts/Poppins-Black.ttf), url(../Fonts/Poppins-BlackItalic.ttf),url(../Fonts/Poppins-Bold.ttf),url(../Fonts/Poppins-BoldItalic.ttf),
+        url(../Fonts/Poppins-ExtraBold.ttf),url(../Fonts/Poppins-ExtraBoldItalic.ttf),url(../Fonts/Poppins-ExtraLight.ttf),url(../Fonts/Poppins-ExtraLightItalic.ttf),url(../Fonts/Poppins-Italic.ttf),url(../Fonts/Poppins-Medium.ttf);
+    }
+    /* Reset Start */
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* Reset End */
+    /* NavBar Starts */
+    .navbar
+    {
+        width: 100%;
+        height:10vh;
+        padding: 5px;
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        position: sticky;
+        transition-duration: 500ms;
+    }
+    .navbar #alogo
+    {
+        display:block;
+        width:80px;
+        height:65px;
+    }
+    
+    .navbar a #logo
+    {
+        width:80px;
+        height:65px;
+        padding: 5px;
+    }
+    .navbar #acartlogo
+    {
+        display:block;
+        width:40px;
+        height:40px;
+    }
+    
+    .navbar #cartlogo
+    {
+        width:40px;
+        height:40px;
+        padding: 5px;
+    }
+    .navbar span
+    {
+        font-size: 14px;
+        font-weight: 600;
+        text-shadow: 1px 1px 3px black,2px 2px 8px black;
+        color: white;
+        letter-spacing: 5px;
+    }
+    /* NavBar Ends */
+    /* Comparison Section Start */
+    .main
+    {
+        width:100%;
+        height:89.5vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .main .dropdown
+    {
+        width:50%;
+        height:10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 20px;
+    }
+    .main .dropdown select
+    {
+        width:180px;
+        height: 8vh;
+        padding: 5px;
+    }
+    .main .dropdown select option
+    {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 10px;
+        transition-duration: 2s;
+    }
+    .main .products
+    {
+        width: 100%;
+        height:75vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    .main .products .productcard
+    {
+        width: 50%;
+        height:75vh;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        visibility: hidden;
+        /* box-shadow: 1px 1px 2px black, -1px -1px -2px black; */
+    }
+    .main .products .productcard img
+    {
+        width:180px;
+        height:180px;
+        box-shadow: 0px 1px 5px black;
+    
+    }
+    .main .products .productcard h2
+    {
+        font-size: 14px;
+        text-align: left;
+        padding: 5px;
+        box-shadow: 0px 1px 0px black;
+    }
+    /* Comparison Section End */
+    /* Animation Start */
+    .navbar:hover
+    {
+        background-color: rgba(0, 0, 0, 0.349);
+        box-shadow: 1px 1px 8px black;
+    }
+    .navbar:hover #cartlogo
+    {
+        filter: invert();
+    }
+    /* Animations End */   
+    
+}
+/* Media Query End */
 
 
